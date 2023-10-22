@@ -1,0 +1,62 @@
+.details__container {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.details__container img {
+  border-radius: 5px;
+  object-fit: cover;
+  height: 400px;
+  min-height: 250px;
+  width: 90%;
+  min-width: 250px;
+  box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.8);
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  border: solid rgba(128, 128, 128, 0.45) 0.5px;
+  padding: 0.5rem;
+}
+.ingredients h4 {
+  margin-bottom: 0.5rem;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.details button {
+  cursor: pointer;
+  font-size: 0.8rem;
+  width: 5rem;
+  height: 2rem;
+  border-style: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.details h3 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 900;
+  font-size: 1.7rem;
+  box-shadow: 2px 2px 5px 2px rgba(255, 0, 0, 0.413);
+}
+.details h4 {
+  font-weight: 400;
+}
+.details span {
+  color: #b69811;
+}
+.details button:hover {
+  width: 5.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px 2px rgba(255, 0, 0, 0.413);
+}

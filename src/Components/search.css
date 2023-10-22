@@ -1,0 +1,67 @@
+.search__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.search__container h3 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.search__container h5 {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.search__container span {
+  color: #0000ff;
+}
+.input__container {
+  width: 50%;
+  text-align: center;
+}
+.input {
+  width: 100%;
+  /* min-width: 350px; */
+  height: 40px;
+  border: solid rgb(206, 201, 201) 1px;
+  outline: none;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.search__feild {
+  display: flex;
+}
+.search__icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 45px;
+  background-color: #0000ff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.recepis {
+  margin-left: 8rem;
+  margin-top: 2.5rem;
+  margin-right: 8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.error {
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.recepi__container {
+  border: solid rgb(206, 201, 201) 1px;
+  width: 250px;
+  min-width: 200px;
+  height: 300px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.413);
+}
+.recepi__img {
+  width: 100%;
+  height: 55%;
+}
+.recepi__container button {
+  cursor: pointer;
+  font-size: 0.8rem;
+  width: 5rem;
+  height: 2rem;
+  border-style: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.recepi__name {
+  height: 80px;
+  /* display: flex;
+       justify-content: center; */
+  /* align-items: center; */
+}
+.recepi__container button:hover {
+  width: 5.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px 2px rgba(255, 0, 0, 0.413);
+}
+.dish__country {
+  color: #b69811;
+}
+.btns {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__detail {
+  background-color: #b69811;
+  color: blue;
+}

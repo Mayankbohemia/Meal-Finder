@@ -1,0 +1,33 @@
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+.main {
+  border-bottom: solid rgb(235, 229, 229) 3px;
+}
+.header__container {
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(88, 84, 84);
+}
+.header__container h3 {
+  font-weight: 400;
+}
+.header__container span {
+  color: red;
+}
+.home {
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(88, 84, 84);
+  font-size: 1.2rem;
+}
+.home:hover {
+  color: red;
+}
+.svg:hover {
+  border-color: red;
+}
