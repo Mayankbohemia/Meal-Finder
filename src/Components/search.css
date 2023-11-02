@@ -17,7 +17,7 @@
   margin-bottom: 0.5rem;
 }
 .search__container span {
-  color: #0000ff;
+  color: red;
 }
 .input__container {
   width: 50%;
@@ -64,4 +64,7 @@
 .error {
   color: red;
   text-align: center;
+}
+.up {
+  color:red
 }
